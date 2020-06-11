@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE082"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Selamat Datang"
+        android:paddingTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/IV_password"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/user"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/TV_tampilNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nama"
+        android:paddingTop="30dp"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/TV_tampilID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Username"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/TV_tampilAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Alamat"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/TV_tampilSaldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Saldo"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/BTN_riwayat"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Riwayat Transaksi"/>
+
+    <Button
+        android:id="@+id/BTN_bayar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Bayar"/>
+
+
+
+</LinearLayout>

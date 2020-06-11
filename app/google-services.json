@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "475204736360",
+    "firebase_url": "https://skripsiadihk.firebaseio.com",
+    "project_id": "skripsiadihk",
+    "storage_bucket": "skripsiadihk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475204736360:android:0d2ab858c73a756648b2dd",
+        "android_client_info": {
+          "package_name": "com.example.skripsiadi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475204736360-11dtdissmo5mgv3ef4k73mnaflqc3g0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF7cDZ0BVvfcEaWL8D98-f2JgHEvtSdzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475204736360-11dtdissmo5mgv3ef4k73mnaflqc3g0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

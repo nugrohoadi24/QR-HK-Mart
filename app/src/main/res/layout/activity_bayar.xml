@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE082"
+    tools:context=".BayarActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Bayar dengan QR"
+        android:paddingTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/IV_password"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/purchase"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TableLayout
+        android:id="@+id/TL_DataTemporary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="50dp"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:background="@android:color/holo_green_light"
+            android:layout_width="0dp">
+            <TextView
+                android:layout_weight="1"
+                android:text="No"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_weight="4"
+                android:layout_gravity="center"
+                android:text="Brand"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_weight="1.5"
+                android:layout_gravity="center"
+                android:text="Satuan"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="QTY"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_weight="2.5"
+                android:layout_gravity="center"
+                android:text="Total"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/TV_totalByr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Total Harga"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/TV_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Total Harga"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/BTN_bayar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Bayar"/>
+</LinearLayout>
